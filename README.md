@@ -37,14 +37,14 @@
 Copy [samples](https://github.com/cogroid/d-atomize-bin/tree/main/samples) folder to /storage/emulated/Download/jsb
 
 ```
-String tmpFolder = "/storage/emulated/Download";
+String tmpFolder = "/storage/emulated/0/Download";
 
 com.cogroid.atomspace.Loader.me().loadWithLog(tmpFolder);
 
 int timeout = 60000;
-String jsFile = "/storage/emulated/Download/jsb/Tests.js";
-String inputFile = "/storage/emulated/Download/jsb/input.json";
-String outputFile = "/storage/emulated/Download/jsb/output.json";
+String jsFile = "/storage/emulated/0/Download/jsb/Tests.js";
+String inputFile = "/storage/emulated/0/Download/jsb/input.json";
+String outputFile = "/storage/emulated/0/Download/jsb/output.json";
 
 com.cogroid.atomize.ASBRun asbRun = new com.cogroid.atomize.ASBRun();
 asbRun.exec(jsFile, timeout, inputFile, outputFile);
