@@ -34,7 +34,7 @@
 
 ### How to use
 
-Copy [samples](https://github.com/cogroid/d-atomize-bin/tree/main/samples) folder to /storage/emulated/Download/jsb
+Copy [samples](https://github.com/cogroid/d-atomize-bin/tree/main/samples) folder to /storage/emulated/0/Download/jsb
 
 ```
 String tmpFolder = "/storage/emulated/0/Download";
