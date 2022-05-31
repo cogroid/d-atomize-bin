@@ -26,7 +26,7 @@
         <dependency>
             <groupId>com.cogroid.atomize</groupId>
             <artifactId>atomize</artifactId>
-            <version>0.1</version>
+            <version>0.2</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/atomize.jar</systemPath>
         </dependency>
@@ -57,6 +57,13 @@ asbRun.exec(jsFile, timeout, inputFile, outputFile);
 function __exec__(data) {
 	runTestWithInput('/AtomSpace.js', data.input());
 	runTestWithInput('/ConceptNode.js', data.input());
+	
+	runScmWithInput('/ConceptNode.scm', data.input());
+}
+
+function runScmWithInput(scmFile, inputMap) {
+	as().scheme2js(scmFile, scmFile + '.js');
+	runTestWithInput(scmFile + '.js', inputMap);	
 }
 
 function runTestWithInput(testFile, inputMap) {
@@ -131,6 +138,14 @@ function __exec__(data) {
 function writeLog(l) {
 	log().info(l);
 }
+```
+
+### fs/ConceptNode.scm
+
+```
+(display 
+	(ConceptNode "dream")
+)
 ```
 
 ---
