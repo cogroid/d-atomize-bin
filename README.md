@@ -4,13 +4,13 @@
 
 ### Release
 
-[Atomize 0.1](https://github.com/cogroid/d-atomize-bin/releases/download/atomize-0.1/atomize.jar)
+[Atomize 0.2](https://github.com/cogroid/d-atomize-bin/releases/download/atomize-0.2/atomize.jar)
 
-[dAtomSpace Tester with Atomize](https://github.com/cogroid/d-atomize-bin/releases/download/atomize-0.1/datomspace-tester.apk)
+[dAtomSpace Tester with Atomize](https://github.com/cogroid/d-atomize-bin/releases/download/atomize-0.2/datomspace-tester.apk)
 
 ### Install & Run dAtomSpace Tester with Atomize
 
-1. Download [datomspace-tester.apk](https://github.com/cogroid/d-atomize-bin/releases/download/atomize-0.1/datomspace-tester.apk)
+1. Download [datomspace-tester.apk](https://github.com/cogroid/d-atomize-bin/releases/download/atomize-0.2/datomspace-tester.apk)
 
 2. Install datomspace-tester.apk (Do not run!)
 
